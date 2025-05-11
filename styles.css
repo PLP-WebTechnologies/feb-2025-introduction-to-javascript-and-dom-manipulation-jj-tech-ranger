@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header, section, footer {
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
